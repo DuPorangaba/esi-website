@@ -1,26 +1,19 @@
 # website2
 
-## Project setup
-```
-npm install
-```
+Para rodar o módulo do front-end, esi-website, siga os seguintes passos:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Instalar a versão do Python 2.7, teste utilizando `python2.7 --version`
+2. Instalar o Node.Js na versão 14.
+    
+    2.1 Para isso pode utilizar o npm.
+    
+    2.2 Após ter o npm instalado, instale a versão 14 `npm install 14`
+    
+    2.3 Use a versão 14: `npm run server`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+3. Instale dois pacotes adicionais, `npm install leaflet vue2-leaflet`
 
-### Lints and fixes files
-```
-npm run lint
-```
+4. Instale todas as depedências, `npm install`
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+5. Execute a aplicação com `npm run serve`
+
