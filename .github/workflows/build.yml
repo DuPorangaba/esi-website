@@ -43,7 +43,7 @@ jobs:
       run: gem install bundler:2.5.22
     - name: Run tests
       run: |
-        cd tests
+        cd unit_tests
         bundle install
         bundle exec cucumber
 
