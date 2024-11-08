@@ -1,4 +1,4 @@
-![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg) 
+![Github Actions badge](https://github.com/DuPorangaba/esi-website/actions/workflows/build.yml/badge.svg) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/61c313545307b69a204e/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-website/maintainability) 
 
 
