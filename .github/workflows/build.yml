@@ -29,4 +29,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm install leaflet vue2-leaflet
-    - run: npm run serve
+    - run: npm run serve &
