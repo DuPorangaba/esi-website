@@ -15,11 +15,23 @@ Para rodar o módulo do front-end, esi-website, siga os seguintes passos:
     
     2.3 Use a versão 14: `nvm use 14`
 
-3. Instale dois pacotes adicionais, `npm install leaflet vue2-leaflet`
+   Se os comandos acima não funcionarem pode ser necessário configurar o fnm e instalar o Node, para isso, execute:
 
-4. Instale todas as depedências, `npm install`
+        configurando o fnm environment:
+        fnm env --use-on-cd | Out-String | Invoke-Expression
+   
+        agora basta fazer a instalação do node 14
+        fnm use --install-if-missing 14
 
-5. Execute a aplicação com `npm run serve`
+        você pode testar utilizando os comandos:
+        node -v
+        nvm -v
+
+4. Instale dois pacotes adicionais, `npm install leaflet vue2-leaflet`
+
+5. Instale todas as depedências, `npm install`
+
+6. Execute a aplicação com `npm run serve`
 
 ## Rodar Testes de Caracterização
 
