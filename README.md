@@ -1,4 +1,8 @@
-# website2
+![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/61c313545307b69a204e/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-website/maintainability) 
+
+
+# Website
 
 Para rodar o módulo do front-end, esi-website, siga os seguintes passos:
 
@@ -16,4 +20,14 @@ Para rodar o módulo do front-end, esi-website, siga os seguintes passos:
 4. Instale todas as depedências, `npm install`
 
 5. Execute a aplicação com `npm run serve`
+
+## Rodar Testes de Caracterização
+
+É necessário ter o Ruby e o Bundler instalado.
+
+1. Dentro do diretório `unit_tests`
+2. Instale as dependências necessárias para rodar os testes: `bundle install`
+3. Rode os testes: `cucumber`
+
+
 
