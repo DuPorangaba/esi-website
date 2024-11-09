@@ -2,7 +2,7 @@ require 'date'
 require 'uri'
 
 Quando('entro no site do cuidando.vc') do
-    visit('http://localhost:8080')
+    visit('http://localhost:8080/')
   end
   
   Então('devo ver o ano selecionado como o ano atual') do
